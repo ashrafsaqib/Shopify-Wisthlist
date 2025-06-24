@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "9720d5af-87d2-4959-8a25-aae3374ff7a1",
+		"name": "Wishlist API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6316041"
+	},
+	"item": [
+		{
+			"name": "Save Wishlist",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"product_id\": \"646464\",\n  \"customer_id\": \"12345\",\n  \"store_id\": \"6464646\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/wishlist",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Wishlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/wishlist/12345",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"wishlist",
+						"12345"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

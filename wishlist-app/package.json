@@ -1,0 +1,21 @@
+{
+  "name": "wishlist-app",
+  "version": "1.0.0",
+  "description": "A wishlist application using Express and MySQL",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.17",
+    "nodemon": "^3.1.10"
+  },
+  "author": "",
+  "license": "ISC"
+}
