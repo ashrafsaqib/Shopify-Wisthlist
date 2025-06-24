@@ -21,12 +21,13 @@
 					"raw": "{\n  \"product_id\": \"646464\",\n  \"customer_id\": \"12345\",\n  \"store_id\": \"6464646\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/wishlist",
+					"raw": "http://wishlist.lipslay.com/api/wishlist",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"wishlist",
+						"lipslay",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"wishlist"
@@ -41,12 +42,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/wishlist/12345",
+					"raw": "http://wishlist.lipslay.com/api/wishlist/12345",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"wishlist",
+						"lipslay",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"wishlist",
